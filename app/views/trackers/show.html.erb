@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @tracker.date %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @tracker.weight %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @tracker.user %>
+</p>
+
+<%= link_to 'Edit', edit_tracker_path(@tracker) %> |
+<%= link_to 'Back', trackers_path %>
